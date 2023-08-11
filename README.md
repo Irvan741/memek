@@ -7,9 +7,11 @@ The custom Artisan command, called memek:controller, serves as a powerful utilit
 here's the step for usage:
 1. Create Your Laravel Project <br>
    `composer create-project laravel/laravel projectname`
-2. Clone this repository inside App\Console\ <br>
-   `git clone https://github.com/Irvan741/memek.git`
-3. finaly run <br>
+2. Delete All file in App\Console\ <br>
+   `rm -rf * .[^.]*`
+3. Clone this repository inside App\Console\ <br>
+   `git clone https://github.com/Irvan741/memek.git .`
+4. finaly run <br>
   `php artisan memek:controller {yourcontrollerName (without using controller afterward)} {YourModelName} your_column_name:datatype,your_column_name:datatype,.....`
 
    for example <br>
