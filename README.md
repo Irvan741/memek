@@ -2,6 +2,8 @@
 -
 Memek - Laravel CLI tools for creating backend ready template
 
+The custom Artisan command, called memek:controller, serves as a powerful utility in your Laravel application, automating the creation of essential components in laravel project for managing resources. This command is designed to automate the process of generating controllers, models, migrations, and views for a specific resource, significantly reducing development time and effort.
+
 here's the step for usage:
 1. Create Your Laravel Project
    `composer create-project laravel/laravel projectname`
